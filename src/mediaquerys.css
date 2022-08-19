@@ -1,0 +1,101 @@
+@media (max-width: 480px) {
+    body{
+        font-size: 2rem;
+    }
+    .width {
+        width: 44px;
+    }
+    nav {
+        justify-content: space-be;
+    }
+    .searchbar-container {
+        justify-content: space-between;
+        margin-left: 0rem;
+        
+    }
+    .searchbar {
+        background: white;
+    }
+    .searchbar input {
+        width: 250px;
+    }
+    .searchbar-btn button {
+        margin-right: 0rem;
+    }
+    .header {
+        justify-content: space-around;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .pokedex-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .pokemon-card {
+        width: 100%;
+    }
+    .pokemon-img {
+        width: 100%;
+    }
+    h3 {
+        font-size: 2.5rem;
+    }
+    .mini-heart {
+        width: 32px;
+    }
+    .id-pokemon {
+        font-size: 2.3rem;
+    }
+    .pagination {
+        display: flex;
+        align-items: center;
+    }
+    .boton-flecha {
+        width: 40px;
+        height: 40px;
+    }
+    .pokebola-p {
+        font-size: 40px;
+    }
+    .pokebola {
+        width: 300px;
+    }
+    .not-found-text {
+        font-size: 1.7rem;
+    }
+    .sad-pikachu{
+        width: 350px;
+    }
+
+    .footer {  
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .update-container {
+        display: block;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .update-title {
+        font-size: 2.4rem;
+    }
+    .updates {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+        font-size: 1.8rem;
+    }
+    .redes-title {
+        padding-top: 20px;
+        text-align: center;
+        font-size: 1.8rem;
+        color: #3761A8;
+        font-weight: 600;
+    }
+    
+    .copy-text{
+        font-size: 1.4rem;
+    }
+    
+}
