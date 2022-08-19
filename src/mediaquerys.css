@@ -74,7 +74,6 @@
     .update-container {
         display: block;
         flex-direction: column;
-        gap: 2rem;
     }
     .update-title {
         font-size: 2.4rem;
@@ -86,12 +85,13 @@
         gap: 2rem;
         font-size: 1.8rem;
     }
+    .redes-container {
+        gap: 10px;
+    }
     .redes-title {
         padding-top: 20px;
         text-align: center;
-        font-size: 2.4rem;
-        color: #3761A8;
-        font-weight: 600;
+        font-size: 2rem;
     }
     
     .copy-text{
