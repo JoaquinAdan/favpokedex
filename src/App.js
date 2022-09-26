@@ -24,7 +24,7 @@ function App() {
     try {
       setLoading(true);
       const data = await getPokemons(15, 15 * page);
-      // console.log(data);
+      // console.log(data.results);
       // setPokemons(data.results);
       const promises = data.results.map(async (pokemon) => {
         return await getPokemonData(pokemon.url);
@@ -103,10 +103,10 @@ function App() {
           (
           <div>
             <div className="not-found-text">
-              <p>No se encontre el pokemon que buscabas</p>
+              <p>No encontré el pokémon que buscabas</p>
 
               <img className="sad-pikachu" src="imagenes/sadpikachu.jpg" alt="pikachu triste"/>
-              <p>Borra tu busqueda para volver a tu pagina actual</p>
+              <p>Borrá tu búsqueda para volver a tu página actual</p>
             </div>  
           </div>
           )

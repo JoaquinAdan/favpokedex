@@ -17,7 +17,7 @@ const Footer = () => {
                     <div className="updates">
                         <span>Información de pokemons</span>
                         <span>Lista de favoritos</span>
-                        <span>volver luego de buscar</span>
+                        <span>Volver luego de buscar</span>
                     </div>
                 </div>
                 <div className="redes-container">

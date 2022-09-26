@@ -6,7 +6,7 @@ const Searchbar = (props) => {
 
     const onChange = (e) => {
         // console.log(search);
-        // console.log(pokemon);
+       
         setSearch(e.target.value.toLowerCase());
         if(e.target.value.length === 0) {
             onSearch(null);
